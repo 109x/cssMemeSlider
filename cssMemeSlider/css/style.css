@@ -131,3 +131,10 @@ input {
 .slider-buttons:has(#slide-6:checked) ~ .slider-text .slider-text-box  {
   transform: translateX(-500%);
 }
+
+@media (max-width: 768px) {
+  .slider-buttons{
+    order:2;
+    width: 100%;
+  }
+}
